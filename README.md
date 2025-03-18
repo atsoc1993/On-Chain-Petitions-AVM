@@ -19,7 +19,7 @@ pip install py-algorand-sdk
 pip install python-dotenv
 ```
 
-If you don't have Python installed, vist https://www.python.org/ and make sure to run as administrator and select the "Add Python.exe to Path" option when installing.
+If you don't have Python installed, visit https://www.python.org/ and make sure to run as administrator and select the "Add Python.exe to Path" option when installing.
 
 ## Step 1 (Account Generation):
 - Generate accounts via file 0a, ensure they are funded via https://bank.testnet.algorand.network/
