@@ -35,7 +35,7 @@ def reset_flags_for_group(signers):
     )
     print("Flags reset")
 
-# Use ThreadPoolExecutor to perform the reset calls concurrently
+# Threading as there is no current new_group.submit() method (to my knowledge), only new_group.send() which is not asynchronous
 with concurrent.futures.ThreadPoolExecutor() as executor:
     futures = [executor.submit(reset_flags_for_group, signers) for signers in split_petition_signers]
 
