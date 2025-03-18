@@ -40,8 +40,9 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     futures = [executor.submit(reset_flags_for_group, signers) for signers in split_petition_signers]
 
 
-# NOTE THAT YOU MUST REMOVE THE UTF8 DECODING LINE AND SET TO NONE FOR BOX NAMES AS PER ISSUE OPENED IN ALGOKIT UTILS GITHUB REPO BY ME
-# HOLD CONTROL AND CLICK the .get_box_names function above, it should look like this:
+# NOTE THAT YOU MUST REMOVE THE UTF8 DECODING LINE AND SET TO NONE FOR BOX NAMES AS PER ISSUE OPENED IN ALGOKIT UTILS GITHUB REPO BY ME HERE:
+# https://github.com/algorandfoundation/algokit-utils-py/issues/148#issue-2925580592
+# HOLD CONTROL AND CLICK the .get_box_names function above, copy and replace with the below:
 '''
     def get_box_names(self, app_id: int) -> list[BoxName]:
         """Get names of all boxes for an application.
