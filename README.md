@@ -8,7 +8,7 @@ It is difficult to ascertain whether or not an account is unique without requiri
 This becomes even more difficult when attempting to establish uniqueness within a smart contract, especially in situations where a user should not necessarily be required to deposit an amount of an asset with the contract, like to participate in an unexpected petition.
 
 # Solution 
-AVM Version 11 makes establishing uniqueness easier, or at least seemingly more fair, as it can also, or exclusively, take consensus participation and/or general node activity as a factor— which most would argue is the most honest/noble method for determining uniqueness.
+AVM Version 11 makes establishing uniqueness easier, or at least seemingly fairer, as it can also, or exclusively, take consensus participation and/or general node activity as a factor— which most would argue is the most honest/noble method for determining uniqueness.
 
 # Steps
 The files have been numbered to assist you in following the workflow, algokit_utils, the py-algorand-sdk, python-dotenv, (algorand-python and algokit as well only if recompiling)
