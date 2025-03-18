@@ -29,7 +29,7 @@ If you don't have Python installed, visit https://www.python.org/ and make sure 
   *Note: Should you make any changes to the contract do not forget to use `algokit compile py contractFileName.py --output-arc56` and `algokitgen-py -a contractFileName.arc56.json -o contract_client.py`*
   
 ## Step 3 (Initialize Petition Details):
-- Set petition details via file 1_ , currently they are defaulted to 'All future funding MUST go to condiments ONLY'
+- Set petition details via file 1_ , currently they are defaulted to 'All future funding MUST go to condiments ONLY'. Petition details cannot be changed once they are set.
 ![image](https://github.com/user-attachments/assets/9648adc8-54f3-40ad-9617-5cc8bb6e9bd5)
 
 ## Step 4 (Gather Signatures):
