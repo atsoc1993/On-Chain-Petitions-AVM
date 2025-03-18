@@ -33,7 +33,7 @@ If you don't have Python installed, visit https://www.python.org/ and make sure 
 ![image](https://github.com/user-attachments/assets/9648adc8-54f3-40ad-9617-5cc8bb6e9bd5)
 
 ## Step 4 (Gather Signatures):
-- Start getting signatures! Petitions can be signed via file 2_, which creates a box for any user with a default "False" boolean flag as the box value, which is set to true during the snapshot. The contract asserts that a box does not exist for the address already, and will fail if someone attempts to sign twice.
+- Start getting signatures! Petitions can be signed via file 2_, which creates a box for any user with a default "False" boolean flag as the box value, which is set to true during the snapshot process. The contract asserts that a box does not exist for the address already, and will fail if someone attempts to sign twice.
 - *Note: Although there is a global counter for signatures obtained, this is not equivalent to the valid signatures count produced after a commitment snapshot, and should only be used for reference. Any arbitrary amount of accounts can sign the petition but does not mean they are valid if the accounts don't meet our uniqueness thresholdings/conditional requirements*
 - 
 ## Step 5 (Perform Commitment Snapshot):
